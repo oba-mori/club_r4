@@ -63,7 +63,7 @@ html {
 /*--------------------------------------------------------------------*/
   /* ヘッダー */
   header {
-    position: sticky ;
+    position: fixed ;
     top: 0;
   
 
@@ -316,7 +316,9 @@ main {
     display: none;
   }
 
-
+  .wrapper {
+    padding-top: 6rem;
+  }
 
 
 
